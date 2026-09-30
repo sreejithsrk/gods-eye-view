@@ -1,0 +1,16 @@
+{
+  "name": "requirements-intelligence-explainer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cinematic motion-graphics explainer for the Requirements Intelligence platform — deterministic Canvas timeline with frame-accurate rendering to MP4/WebM.",
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "snap": "node scripts/snap.mjs",
+    "render": "node scripts/render.mjs",
+    "render:preview": "node scripts/render.mjs --fps 30 --frame-format jpeg --formats mp4 --name preview"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.1"
+  }
+}
